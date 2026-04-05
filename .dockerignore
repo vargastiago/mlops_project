@@ -1,0 +1,46 @@
+# Git and editor files
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.python-version
+.conda/
+.venv/
+venv/
+env/
+
+# Test, lint and coverage caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Local settings and logs
+.env
+.env.*
+*.log
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Project outputs not required to run the web app
+# Keep artifacts/ and models/ because the app loads them at runtime.
+data/
+metrics/
