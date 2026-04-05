@@ -83,10 +83,16 @@ secrets.*
 # ------------------------------
 # Data artifacts (do not commit raw/generated data)
 # ------------------------------
-data/
-artifacts/
-models/
-metrics/
+data/*
+!data/*/
+data/*/*
+!data/*/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+models/*
+!models/.gitkeep
+metrics/*
+!metrics/.gitkeep
 
 # ------------------------------
 # DVC
