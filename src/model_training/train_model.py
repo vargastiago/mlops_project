@@ -68,7 +68,7 @@ def create_model(
     return model
 
 
-def save_training_artifacts(model: tf.keras.Model, encode: OneHotEncoder) -> None:
+def save_training_artifacts(model: tf.keras.Model, encoder: OneHotEncoder) -> None:
     artifacts_dir = 'artifacts'
     models_dir = 'models'
     model_path = os.path.join(models_dir, 'model.keras')
@@ -80,7 +80,7 @@ def save_training_artifacts(model: tf.keras.Model, encode: OneHotEncoder) -> Non
 
     # Save the encoder for inference
     logger.info(f'Saving encoder to {encoder_path}')
-    joblib.dump(encode, encoder_path)
+    joblib.dump(encoder, encoder_path)
 
 
 def train_model(train_data: pd.DataFrame, params: dict[str, float | int]) -> None:
