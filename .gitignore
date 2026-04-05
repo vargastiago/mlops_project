@@ -86,6 +86,7 @@ secrets.*
 data/
 artifacts/
 models/
+metrics/
 
 # ------------------------------
 # DVC
