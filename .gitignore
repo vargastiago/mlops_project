@@ -1,0 +1,124 @@
+# ------------------------------
+# Operating system files
+# ------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ------------------------------
+# Editor / IDE
+# ------------------------------
+.vscode/*
+.idea/
+*.iml
+
+# ------------------------------
+# Python cache / bytecode
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ------------------------------
+# Python environments
+# ------------------------------
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ------------------------------
+# Conda environments
+# ------------------------------
+.conda/
+conda-meta/
+
+# ------------------------------
+# Build / packaging
+# ------------------------------
+build/
+dist/
+site/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# ------------------------------
+# Tooling caches and reports
+# ------------------------------
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# ------------------------------
+# Notebooks
+# ------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------
+# Logs and local runtime files
+# ------------------------------
+*.log
+logs/
+*.pid
+
+# ------------------------------
+# Secrets and local environment
+# ------------------------------
+.env
+.env.*
+*.local
+secrets.*
+
+# ------------------------------
+# Data artifacts (do not commit raw/generated data)
+# ------------------------------
+data/
+artifacts/
+models/
+
+# ------------------------------
+# DVC
+# Keep .dvc files tracked; ignore local cache/temp
+# ------------------------------
+.dvc/cache/
+.dvc/tmp/
+
+# ------------------------------
+# MLflow local tracking artifacts
+# ------------------------------
+mlruns/
+mlartifacts/
+
+# ------------------------------
+# Apache Airflow
+# ------------------------------
+airflow.db
+airflow-webserver.pid
+airflow-scheduler.pid
+airflow-worker.pid
+airflow-standalone.pid
+airflow.cfg
+logs/
+
+# ------------------------------
+# Docker
+# ------------------------------
+.docker/
+
+# ------------------------------
+# Misc
+# ------------------------------
+*.swp
+*.swo
+*~
