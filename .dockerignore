@@ -3,6 +3,7 @@
 .gitignore
 .vscode/
 .idea/
+.dvc/
 
 # Python cache and virtual environments
 __pycache__/
